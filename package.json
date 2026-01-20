@@ -1,11 +1,17 @@
 {
-  "name": "extract-pg-schema",
+  "name": "@behaview/extract-pg-schema",
   "version": "5.8.0",
   "keywords": [
     "postgresql",
     "schema"
   ],
-  "repository": "git@github.com:kristiandupont/extract-pg-schema.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behaview/extract-pg-schema.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "license": "MIT",
   "author": {
     "name": "Kristian Dupont",
